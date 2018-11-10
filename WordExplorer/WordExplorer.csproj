@@ -48,6 +48,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Item.cs" />
     <Compile Include="MainForm.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -81,6 +82,36 @@
   <ItemGroup />
   <ItemGroup>
     <Content Include="Aspose\Aspose.Words.dll" />
+    <EmbeddedResource Include="Icons\Body.ico" />
+    <EmbeddedResource Include="Icons\BookmarkEnd.ico" />
+    <EmbeddedResource Include="Icons\BookmarkStart.ico" />
+    <EmbeddedResource Include="Icons\Cell.ico" />
+    <EmbeddedResource Include="Icons\Collapse.ico" />
+    <EmbeddedResource Include="Icons\Document.ico" />
+    <EmbeddedResource Include="Icons\Expand.ico" />
+    <EmbeddedResource Include="Icons\FieldEnd.ico" />
+    <EmbeddedResource Include="Icons\FieldSeparator.ico" />
+    <EmbeddedResource Include="Icons\FieldStart.ico" />
+    <EmbeddedResource Include="Icons\Footer.ico" />
+    <EmbeddedResource Include="Icons\Footnote.ico" />
+    <EmbeddedResource Include="Icons\FormCheckBox.ico" />
+    <EmbeddedResource Include="Icons\FormDropDown.ico" />
+    <EmbeddedResource Include="Icons\FormField.ico" />
+    <EmbeddedResource Include="Icons\FormTextInput.ico" />
+    <EmbeddedResource Include="Icons\GroupShape.ico" />
+    <EmbeddedResource Include="Icons\Header.ico" />
+    <EmbeddedResource Include="Icons\HeaderFooter.ico" />
+    <EmbeddedResource Include="Icons\InlineShape.ico" />
+    <EmbeddedResource Include="Icons\Node.ico" />
+    <EmbeddedResource Include="Icons\OleControl.ico" />
+    <EmbeddedResource Include="Icons\OleObject.ico" />
+    <EmbeddedResource Include="Icons\Paragraph.ico" />
+    <EmbeddedResource Include="Icons\Row.ico" />
+    <EmbeddedResource Include="Icons\Run.ico" />
+    <EmbeddedResource Include="Icons\Section.ico" />
+    <EmbeddedResource Include="Icons\Shape.ico" />
+    <EmbeddedResource Include="Icons\SpecialChar.ico" />
+    <EmbeddedResource Include="Icons\Table.ico" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
